@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Confirmation</title>
+    <script src="/Myntra/js/script2.js"></script>
+    <script src="/Myntra/js/timer.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        p {
+            margin-bottom: 10px;
+        }
+        
+        .order-details {
+            margin-top: 30px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+        
+        .order-details p {
+            margin-bottom: 5px;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .order-details p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Order Confirmation</h1>
+        <p>Thank you for your purchase!</p>
+        <div class="order-details">
+            <p><strong>Order ID:</strong> 1234567890</p>
+            <p><strong>Date:</strong> July 29, 2023</p>
+            <p><strong>Shipping Address:</strong> 123 Main St, City, Country</p>
+            <p><strong id="erro">Total Amount:</strong> Rs 999</p>
+            <p><strong style="justify-content: center; font-size: 35px; color: rgb(220, 92, 45);"><a href="/Myntra/index.html">RETURN TO HOME & CONTINUE SHOPPING</a></strong></p>
+        </div>
+    </div>
+</body>
+</html>
