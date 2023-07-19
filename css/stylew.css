@@ -1,0 +1,250 @@
+.row-base ul {
+    display: flex;
+    list-style: none;
+    margin-left: 22px;
+}
+
+.breadcrumbs-base ul li {
+    display: flex;
+    list-style: none;
+    margin: 0px 13px;
+    font-size: 18px;
+    text-align: center;
+
+
+}
+
+.breadcrumbs-base ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.womencards1,
+.womencard-items {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.search-base h4,
+.search-base ul,
+.search-rightContainer {
+    padding-left: 0;
+}
+
+.results-base {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    margin: 0 -10px 0 3px;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+user agent stylesheet ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.column-base,
+.row-base {
+    -webkit-box-direction: normal;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.itm {
+    display: flex;
+    list-style: none;
+}
+
+.container {
+    margin-top: 22px;
+}
+
+.product-wishlist img {
+    align-items: baseline;
+    margin-left: 33px;
+    width: 22px;
+}
+
+.product-wishlist img:hover {
+
+    width: 23px;
+}
+
+.filter1 {
+    border: 2px solid rgb(208, 199, 199);
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 12vw;
+    height: 100%;
+    flex-direction: column;
+
+
+}
+
+.filter1 h2 {
+    margin-top: 8px;
+}
+
+.filterchleckbox {
+    align-items: center;
+    font-size: 12px;
+    margin: 4px 0px 4px 25px;
+}
+
+.product-base {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    width: 85vw;
+}
+
+
+.product-base img {
+    margin: 17px;
+}
+
+.product-productMetaInfo img {
+    margin: 2px 0px -5px 19px;
+}
+
+.product-actions {
+    margin-bottom: 13px;
+}
+
+.product-discountPercentage {
+    color: #ff905a;
+}
+
+input {
+    margin-right: 13px;
+}
+
+@media screen and (max-width: 780px){
+    
+    #product-baseitems {
+        display: flex;
+        flex-direction: column;
+        width: 212px;
+        height: auto;
+    }
+    .product-base img{
+        height: 314px;
+        margin: 6px;
+    }
+    .filterchleckbox {
+        align-items: center;
+        font-size: 12px;
+        margin: 4px 0px 4px 5px;
+    }
+    input {
+        margin-right: 5px;
+    }
+    b, strong {
+        font-weight: bolder;
+        font-size: 24px;
+    }
+    
+    
+}
+@media screen and (max-width: 450px){
+
+    #product-baseitems {
+        display: flex;
+        flex-direction: column;
+        width: 159px;
+        height: 380px;
+    }
+    
+    .filterchleckbox {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 12px;
+        justify-content: center;
+        margin: 2px 0px 7px 0px;
+    }
+    h2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 12px;
+        justify-content: center;
+        margin: 2px 0px 7px -10px;
+    }
+    input {
+        margin-right: 0px;
+    }
+    
+.profile_wishlist_addtocart {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: -75px;
+}
+    .profile_wishlist_addtocart img {
+        margin-right: 51px;
+        width: 23px;
+        text-align: center;
+    }
+    
+}

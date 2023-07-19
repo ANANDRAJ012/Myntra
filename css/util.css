@@ -1,0 +1,97 @@
+nav{
+    background-color: #fff;
+}
+#wish{
+    width: 71px;
+}
+body{
+background-color: #f6e9e9;
+}
+.profilesection{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100VH;
+    width: 37%;
+    background-color: #f8f4f4;
+}
+.signincontent{
+    font-size: 25px;
+    margin-left: 32px;
+    margin-top: 36pX;
+}
+
+
+.placeholder{
+    margin-left: -6.3px;
+font-size: 18px;
+padding: 7px;
+margin-top: 22px;
+}
+.none{
+    width:30PX;
+    font-size: 18px;
+    padding: 7px;
+}
+.terms_of_use{
+    margin-top: 22px;
+}
+.terms_of_use a{
+    color: rgb(193, 70, 70);
+}
+.submitbutton{
+    display: flex;
+    background-color: rgb(193, 70, 70);
+    width: 466px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 19PX;
+    font-size: 38px ;
+    font-weight: 700;
+    cursor: pointer;
+}
+@media screen and (max-width:450px){
+    .profilesection {
+        height: 100VH;
+        width: 95%;
+        background-color: #f8f4f4;
+    }
+    #wish {
+        width: 94px;
+        width: 94px;
+        margin-left: -70px;
+        margin-top: 14px;
+        
+    }
+    .profile_wishlist_addtocart a {
+        font-size: 16px;
+        width: 29px;
+        margin-left: 97px;
+        margin-right: 10px;
+    }
+    #cart{
+        margin-top: 6px;
+    }
+    .signincontent {
+        font-size: 25px;
+        margin: auto;
+        width: 85vw;
+        margin-top: 36pX;
+    }
+    #myntralogo {
+        width: auto;
+        margin: auto;
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 1444px){
+
+    .profilesection {
+        height: 100VH;
+        width: 100vw;
+    }
+}

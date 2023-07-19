@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.route ul {
+    display: flex;
+    list-style: none;
+    margin-left: 22px;
+    font-size: 17px;
+}
+
+.breadcrumbs-item {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    margin: 0px 13px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.breadcrumbs-base ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+}
+
+nav {
+    align-items: center;
+}
+
+.navbar {
+    position: sticky;
+    display: flex;
+}
+
+nav ul {
+    /* width: 555px; */
+    display: flex;
+    list-style: none;
+    margin: 13px;
+}
+
+nav ul li {
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: left .1s ease-out, width .1s ease-out;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+sup {
+    color: brown;
+}
+
+.profile_wishlist_addtocart {
+    display: flex;
+    margin: 0px 32px;
+    text-align: center;
+}
+
+.profile_wishlist_addtocart img {
+    margin-right: 23px;
+    margin-left: 23px;
+    width: 23px;
+    text-align: center;
+    overflow-block: hidden;
+}
+
+.profile_wishlist_addtocart a {
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 107px;
+}
+
+.profile_wishlist_addtocart img:hover {
+    text-align: center;
+    width: 27px;
+}
+
+#myntralogo {
+    margin: 21px 34px;
+}
+
+#input1 {
+    font-size: 23px;
+    border-radius: 3px;
+    height: 42px;
+    width: 33vw;
+    padding: 5px 5px 5px 22px;
+    border: 3px solid rgb(201, 200, 200);
+    background-color: rgb(247, 245, 243);
+}
+
+
+.searchicon {
+    margin-left: 0px;
+    width: 48px;
+}
+
+.firstimg img {
+    margin-top: -3.5px;
+    width: 100vw;
+}
+
+.Cards1 {
+    margin-top: -3.5px;
+    display: flex;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-items img {
+    height: 373px;
+}
+
+.CardsTrendsPeak {
+    margin-top: -3.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.CardsTrendsPeak img {
+    height: 373px;
+}
+
+.CardsTopBrand1 {
+    margin-top: -3.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.CardsTopBrand1 img {
+    height: 372.5px;
+}
+
+.ShopByCategory {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ShopByCategory img {
+    display: inline-block;
+    /* width: 356px; */
+    height: 586px;
+}
+
+footer {
+    margin: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    background-color: var(--main-bg-color);
+    color: rgb(26, 23, 23);
+    font-family: 'Roboto', sans-serif;
+}
+
+.timer {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#addtocartwl {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive Styles for Tablet */
+@media screen and (max-width: 991px) {
+
+    #myntralogo {
+        width: 52px;
+        margin: 19px 14px;
+    }
+    nav ul{
+        margin: 0px;
+    }
+
+    nav ul li {
+        margin-right: 6px;
+        font-size: 11px;
+    }
+
+    #input1 {
+        height: 32px;
+        padding: 5px 5px 5px 5px;
+        margin-right: 67px;
+    }
+
+    .searchicon {
+        visibility: hidden;
+    }
+
+    .searchicon {
+        margin-left: -33px;
+        width: 23px;
+    }
+
+    /* .profile_wishlist_addtocart img {
+        margin-right: 31px;
+        margin-left: 32px;
+        width: 31px;
+        text-align: center;
+    } */
+
+    .firstimg img {
+        margin-top: 7px;
+    }
+
+    .profile_wishlist_addtocart{
+        margin: 0px;
+        justify-content: unset;
+        display: flex;
+    }
+    .profile_wishlist_addtocart{
+        /* margin-right: 14px;
+    margin-left: 14px; */
+    /* width: 24px; */
+    text-align: center;
+    }
+
+    .card-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-items img {
+        height: 175px;
+    }
+
+    .CardsTrendsPeak {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .CardsTrendsPeak img {
+        width: 153px;
+        height: 252px;
+    }
+
+    .CardsTopBrand1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #deals {
+        font-weight: bolder;
+        font-size: 38px;
+    }
+
+    .timer {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .CardsTopBrand1 img {
+        height: 292px;
+
+
+    }
+
+    .ShopByCategory {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ShopByCategory img {
+
+        height: 392px;
+    }
+}
+
+/* Responsive Styles for Mobile */
+@media screen and (max-width: 603px) {
+    #myntralogo {
+        width: auto;
+        margin: auto;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    nav ul {
+
+        flex-direction: row;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    nav ul li {
+        margin-right: 24px;
+        margin-left: 19px;
+    }
+
+    .navbar {
+        align-items: center;
+    }
+
+    #input1 {
+        width: 80vw;
+        border: 2px solid rgb(210, 208, 208);
+    }
+
+    .searchicon {
+        visibility: hidden;
+        margin: -13px 0px;
+    }
+
+    .profile_wishlist_addtocart a {
+        font-size: 10px;
+        width: 17px;
+        margin-left: 93px;
+        margin-right: 93px;
+    }
+
+    /* #addtocart img {
+    text-decoration: none;
+    display: flex;
+    margin-left: 13px;
+} */
+    .profile_wishlist_addtocart a {
+        font-size: 10px;
+        width: 17px;
+        margin-left: 93px;
+        margin-right: 93px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #myntralogo {
+        width: auto;
+        margin: auto;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+
+    nav ul {
+
+        flex-direction: row;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    nav ul li {
+        margin-right: 9px;
+        margin-left: 9px;
+    }
+
+    .searchicon {
+        margin-bottom: -2px;
+        visibility: visible;
+        margin-left: 268px;
+        margin-top: -32px;
+        width: 23px;
+    }
+
+    .profile_wishlist_addtocart a {
+        font-size: 17px;
+        width: 28px;
+        margin-top: 10px;
+        margin-left: 18px;
+        margin-right: 115px;
+    }
+
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        width: 100%;
+        padding-right: 0rem;
+        padding-left: 0rem;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .row {
+        margin: auto;
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex: 1 0 100%;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x)/ -2);
+        /* margin-left: calc(var(--bs-gutter-x)/ -2); */
+    }
+
+    #addtocartpf {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+    }
+
+    .pricevalue {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2px;
+    }
+
+    .mx-auto {
+        /* margin-right: auto!important; */
+        margin-left: auto !important;
+    }
+
+    .Cards1 img {
+        height: 165px;
+    }
+
+
+    .CardsTrendsPeak {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .CardsTrendsPeak img {
+        width: 130px;
+        /* height: auto; */
+    }
+
+    .CardsTopBrand1 img {
+        height: 170px;
+        /* width: 153px;    */
+    }
+
+    .ShopByCategory img {
+        /* width: 230px; */
+        height: 242px;
+    }
+
+    .timer {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    #addtocartwl {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+    }
+}
