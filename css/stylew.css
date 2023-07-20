@@ -206,13 +206,13 @@ input {
     
     
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 400px){
 
     #product-baseitems {
         display: flex;
         flex-direction: column;
-        width: 159px;
-        height: 380px;
+        width: 147px;
+        height: 338px;
     }
     
     .filterchleckbox {
