@@ -329,8 +329,9 @@ footer {
     }
 
     #input1 {
-        width: 80vw;
+        width: 74vw;
         border: 2px solid rgb(210, 208, 208);
+        margin-left: 36px;
     }
 
     .searchicon {
@@ -387,11 +388,11 @@ footer {
     }
 
     .searchicon {
-        margin-bottom: -2px;
-        visibility: visible;
-        margin-left: 268px;
-        margin-top: -32px;
-        width: 23px;
+         margin-bottom: -2px;
+    visibility: visible;
+    margin-left: 296px;
+    margin-top: -43px;
+    width: 38px;
     }
 
     .profile_wishlist_addtocart a {
